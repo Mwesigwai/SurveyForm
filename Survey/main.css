@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.form-card{
+    background-color: white;
+    border-radius: 1em;
+    padding: .2em 2em;
+    text-align: center;
+}
+
+.form-card form{
+    display: grid;
+    grid-template-columns: auto .5fr;
+    grid-column-gap: 2em;
+    justify-content: center;
+    grid-row-gap: 1em;
+}
+
+.form-card form label{
+    text-align: right;
+}
+
+.form-card form #submit{
+    grid-column-start: 2;
+    background-color: #2a57de;
+    color: white;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+.form-card form label, #submit{
+    height: 2em;
+}
+
+.options{
+    text-align: left;
+    padding-left: 2em;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <section class="form-card">
+        <h4>Let us know how we can improve our service</h4>
+        <form action="">
+            <label for="name"><sup>*</sup>Name</label>
+            <input type="text" name="Name" id="name" required placeholder="Enter your name">
+
+            <label for="email"><sup>*</sup>Email</label>
+            <input type="email" name="Email" id="email" required placeholder="Enter your email">
+
+            <label for="age"><sup>*</sup>Age</label>
+            <input type="number" name="Age" id="age" required placeholder="Age">
+
+            <label for="handphone"><sup>*</sup>Handphone</label>
+            <input type="tel" name="Handphone" id="handphone" placeholder="Phone number" required>
+
+            <label for="select"><sup>*</sup>First time playing Escape Room?</label>
+            <select name="FirstTimePlaying" id="select" required>
+                <option value="">Select an option</option>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+            </select>
+
+            <label for="game-played"><sup>*</sup>Which game you played?</label>
+            <section id="game-played" class="options">
+                <input type="checkbox" name="Exodus" id="e">
+                <label for="e">Exodus</label>
+                <br>
+
+                <input type="checkbox" name="Alcatraz" id="alcatraz">
+                <label for="alcatraz">Alcatraz</label>
+                <br>
+
+                <input type="checkbox" name="Aokigahara" id="aokigahara">
+                <label for="aokigahara">Aokigahara</label>
+                <br>
+
+                <input type="checkbox" name="Mausoleum" id="mausoleum">
+                <label for="mausoleum">Mausoleum</label>
+                <br>
+
+                <input type="checkbox" name="Castiglione" id="castiglione">
+                <label for="castiglione">Castiglione</label>
+                <br>
+            </section>
+
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
