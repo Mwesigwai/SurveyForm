@@ -32,7 +32,7 @@ h1{
 
 .form-card form #submit{
     grid-column-start: 2;
-    background-color: #2a57de;
+    background-color: #018afa;
     color: white;
     border-radius: .3em;
     cursor: pointer;
